@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../../db/connections');
+const db = require('../../db/connection');
 
 // GET all parties
 router.get('/api/parties', (req, res) => {
